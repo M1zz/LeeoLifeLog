@@ -11,7 +11,7 @@ import SwiftUI
 struct LeeoLifeLogApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(leeo: User(name: "Leeo", age: 404))
         }
     }
 }

@@ -14,6 +14,9 @@
 		58439C2C285F57430087B332 /* LeeoLifeLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58439C2B285F57430087B332 /* LeeoLifeLogTests.swift */; };
 		58439C36285F57430087B332 /* LeeoLifeLogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58439C35285F57430087B332 /* LeeoLifeLogUITests.swift */; };
 		58439C38285F57430087B332 /* LeeoLifeLogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58439C37285F57430087B332 /* LeeoLifeLogUITestsLaunchTests.swift */; };
+		58439C45285F58810087B332 /* LeeoLifeLog.docc in Sources */ = {isa = PBXBuildFile; fileRef = 58439C44285F58810087B332 /* LeeoLifeLog.docc */; };
+		58439C48285F5C200087B332 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58439C47285F5C200087B332 /* Main.swift */; };
+		58439C4C285F7D570087B332 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58439C4B285F7D570087B332 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		58439C31285F57430087B332 /* LeeoLifeLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeeoLifeLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58439C35285F57430087B332 /* LeeoLifeLogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeoLifeLogUITests.swift; sourceTree = "<group>"; };
 		58439C37285F57430087B332 /* LeeoLifeLogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeeoLifeLogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58439C44285F58810087B332 /* LeeoLifeLog.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LeeoLifeLog.docc; sourceTree = "<group>"; };
+		58439C47285F5C200087B332 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		58439C4B285F7D570087B332 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,13 @@
 		58439C19285F57420087B332 /* LeeoLifeLog */ = {
 			isa = PBXGroup;
 			children = (
+				58439C49285F5C3E0087B332 /* Viewing */,
 				58439C1A285F57420087B332 /* LeeoLifeLogApp.swift */,
 				58439C1C285F57420087B332 /* ContentView.swift */,
+				58439C4A285F7D4B0087B332 /* Model */,
 				58439C1E285F57430087B332 /* Assets.xcassets */,
 				58439C20285F57430087B332 /* Preview Content */,
+				58439C44285F58810087B332 /* LeeoLifeLog.docc */,
 			);
 			path = LeeoLifeLog;
 			sourceTree = "<group>";
@@ -125,6 +134,22 @@
 				58439C37285F57430087B332 /* LeeoLifeLogUITestsLaunchTests.swift */,
 			);
 			path = LeeoLifeLogUITests;
+			sourceTree = "<group>";
+		};
+		58439C49285F5C3E0087B332 /* Viewing */ = {
+			isa = PBXGroup;
+			children = (
+				58439C47285F5C200087B332 /* Main.swift */,
+			);
+			path = Viewing;
+			sourceTree = "<group>";
+		};
+		58439C4A285F7D4B0087B332 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58439C4B285F7D570087B332 /* User.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58439C45285F58810087B332 /* LeeoLifeLog.docc in Sources */,
 				58439C1D285F57420087B332 /* ContentView.swift in Sources */,
+				58439C48285F5C200087B332 /* Main.swift in Sources */,
+				58439C4C285F7D570087B332 /* User.swift in Sources */,
 				58439C1B285F57420087B332 /* LeeoLifeLogApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

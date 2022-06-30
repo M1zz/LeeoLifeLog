@@ -1,4 +1,4 @@
-# ``LeeoLifeLog/LifeLog``
+# ``LeeoLifeLog``
 
 리이오의 라이프 로그를 보여주는 앱 입니다.
 
@@ -11,7 +11,7 @@
 ## Topics
 
 ### Views
-- ``LeeoLifeLog/ContentView``
+- ``ContentView``
 
 ### Tab Views
 - ``Main``
